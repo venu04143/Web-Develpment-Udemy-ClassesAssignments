@@ -1,0 +1,26 @@
+h1{
+    color: brown;
+}
+.note{
+    color: darkorchid;
+    font-size: 20px;
+}
+#id{
+    color: darkblue;
+    font-style: italic;
+}
+.class2{
+    font-style: oblique;
+}
+#id3{
+    color: blueviolet;
+}
+li[dragabble="true"]{
+    font-size: 40px;
+}
+#id4{
+    color: darkmagenta;
+}
+#id5{
+    color: darkgoldenrod;
+}
