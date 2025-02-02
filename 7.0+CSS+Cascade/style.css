@@ -1,0 +1,45 @@
+/* Don't change the existing CSS. */
+
+#outer-box{
+  background-color: purple;
+}
+
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+.inner-box{
+  background-color:red;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+
+}
+.white-text{
+  color: white;
+}
+.a1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: darkcyan;
+}
+.a2{
+  width: 80%;
+  height: 80%;
+  border: 1px solid red;
+  margin: 30px;
+  background-color: brown;
+}
+.a3{
+  width: 80%;
+  height: 80%;
+  border: 1px solid green;
+  margin:1.5rem;
+  background-color: chartreuse;
+}
