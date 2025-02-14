@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        body{
+
+            margin: 30px;
+            background-color: aliceblue;
+            background-image: url('http://bestanimations.com/Nature/Water/lake/lake-nature-animated-gif-28.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .flex{
+            display: inline-flex;
+            flex-direction: column;
+            column-gap: 0px;
+            margin-left: 40px;
+            flex-wrap: wrap;
+           
+        }
+        .inside1{
+            margin: 30px;
+            display: inline-flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+      
+        .inside1>div{
+            width: 400px;
+            height: 300px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .inside1>*:hover{
+              cursor: pointer;
+            transform: scale(1.03);
+            transition: 500ms;
+        }
+        @media(max-width:480px){
+            body{
+                background-color: aliceblue;
+                background-image: url('http://bestanimations.com/Nature/Water/lake/lake-nature-animated-gif-28.gif');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .flex{
+                display: inline-flex;
+                flex-direction: column;
+                column-gap: 0px;
+                margin-left: 50px;
+                flex-wrap: wrap;
+               
+            }
+            .inside1{
+                margin: 10px;
+                display: inline-flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+          
+            .inside1>div{
+                width: 200px;
+                height: 150px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .inside1>*:hover{
+                  cursor: pointer;
+                transform: scale(1.03);
+                transition: 500ms;
+        } 
+    }
+        @media(min-width: 481px) and (max-width:1300px){
+         
+          
+            body{
+                background-color: aliceblue;
+                background-image: url('http://bestanimations.com/Nature/Water/lake/lake-nature-animated-gif-28.gif');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .flex{
+                display: inline-flex;
+                flex-direction: column;
+                column-gap: 0px;
+               justify-content: center;
+               flex-wrap: wrap;
+                
+
+               
+            }
+            .inside1{
+                margin: 10px;
+                display: block;
+                flex-direction: column;
+                gap: 10px;
+                flex-wrap: wrap ;
+            }
+            .box2{
+                margin-left: 300px;
+                flex-wrap: wrap;
+            }
+           
+          
+            .inside1>div{
+                width: 250px;
+                height: 200px;
+            }
+            img{
+                width: 100%;
+                height: 70%;
+            }
+            .inside1>*:hover{
+                  cursor: pointer;
+                transform: scale(1.03);
+                transition: 500ms;
+        }
+    }
+     
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="inside1 box1">
+            <div class="p1"><abbr title="another world"><img src="./9.1 Flex Direction/img/trip.jpg"  width="100%" height="100%" alt=""></abbr></div>
+            <div class="p2"><img src="./9.1 Flex Direction/img/village.jpeg"  alt=""></div>
+            <div class="p3"><img src="./9.1 Flex Direction/img/tree.jpeg" alt=""></div>
+        </div>
+        <div class="inside1 box2">
+            <div class="t1"><img src="./9.1 Flex Direction/img/solo.jpeg" alt=""></div>
+            <div class="t2"><img src="./9.1 Flex Direction/img/sitting.jpeg" alt=""></div>
+            <div class="t3"><img src="./9.1 Flex Direction/img/partner.jpeg" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

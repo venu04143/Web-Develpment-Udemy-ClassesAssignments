@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+    }
+    .outer{
+        width: 90rem;
+        height: 45rem;
+        border: 2px solid black;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: center;
+        
+        
+    }
+    .innerboxes{
+        width: 10%;
+        height: 12%;
+        border: 0.2px solid rebeccapurple; 
+        margin-top: 50px; 
+
+    }
+    .innerboxes>h3{
+        text-align: center;
+        margin-top:30px
+    }
+    #box1{
+        background-color: purple;
+        order: 1;
+        align-self:center;
+    }
+    #box2{
+        background-color: blue;
+        align-self: center;
+    }
+    #box3{
+        background-color: red;
+        align-self: end;
+        margin-bottom: 2%;
+    }
+    #box4{
+        background-color: green;
+    }
+    #box5{
+        background-color: indigo;
+        align-self: center;
+    }
+    #box6{
+        background-color: pink;
+    }
+    #box7{
+        background-color: yellow;
+        align-self: end;
+        margin-bottom: 1%;
+    }
+</style>
+<body>
+    <div class="outer" id="out">
+
+        <div class="innerboxes" id="box1"><h3>Purple</h3></div>
+        <div class="innerboxes" id="box2"><h3>Blue</h3></div>
+        <div class="innerboxes" id="box3"><h3>Red</h3></div>
+        <div class="innerboxes" id="box4"><h3>Green</h3></div>
+        <div class="innerboxes" id="box5"><h3>Indigo</h3></div>
+        <div class="innerboxes" id="box6"><h3>Pink</h3></div> 
+        <div class="innerboxes" id="box7"><h3>Yellow</h3></div>
+    </div>
+</body>
+</html>
