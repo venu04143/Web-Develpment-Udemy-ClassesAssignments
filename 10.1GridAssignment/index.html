@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid-container{
+            width:1000px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 2fr 2fr;
+    
+        }
+        .grid1
+        {
+            border: 1px solid salmon;
+            width: auto;
+            height: 300px;
+    }
+    .grid2{
+        border: 1px solid salmon;
+        width: auto;
+        height: auto;
+     }
+    
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid1">1</div>
+        <div class="grid2">2</div>
+        <div class="grid1">3</div>
+        <div class="grid2">4</div>
+        <div class="grid1">5</div>
+        <div class="grid2">6</div>
+    </div>
+</body>
+</html>
