@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 2fr 1.53fr 1.5fr 0.2fr ;
+      grid-template-rows: 1fr 0.5fr 0.5fr 0.1fr  ;
+      background-color: antiquewhite;
+    }
+    .child1{
+      background-color: brown;
+      border-right: 5px solid black;
+      border-bottom: 5px solid black;
+    }
+    .child2,.child2,.child3,.child4{
+      border-bottom: 5px solid black;
+    }
+    .child5,.child9{
+      border-right: 5px solid black;
+    }
+    .child8{
+      background-color: blue;
+      border-bottom: 10px solid black;
+      border-left:5px solid black ;
+    }
+    .child12{
+      border-left: 5px solid black;
+    }
+    .child13{
+      border-top: 5px solid black;
+    }
+    .child14{
+      background-color: yellow;
+      border-top: 5px solid black;
+    }
+    .child15{
+      background-color: rgb(63, 44, 44);
+      border-left: 5px solid black;
+    }
+    .child16{
+      border-left: 5px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <div class="child4"></div>
+    <div class="child5"></div>
+    <div class="child6"></div>
+    <div class="child7"></div>
+    <div class="child8"></div>
+    <div class="child9"></div>
+    <div class="child10"></div>
+    <div class="child11"></div>
+    <div class="child12"></div>
+    <div class="child13"></div>
+    <div class="child14"></div>
+    <div class="child15"></div>
+    <div class="child16"></div>
+   </div>
+</body>
+
+</html>
